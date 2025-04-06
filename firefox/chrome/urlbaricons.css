@@ -1,0 +1,296 @@
+
+
+#identity-icon {
+    list-style-image: url("iconstabs/dialog-information.svg") !important;
+  }
+#identity-box[pageproxystate="valid"].chromeUI #identity-icon {
+  list-style-image: url("icons/icon16-new.png") !important;
+}
+#urlbar-search-mode-indicator-close, #searchmode-switcher-close {
+  background: url("iconstabs/window-close.svg")!important;
+  opacity: 0.8
+}
+  
+  #urlbar:not(.searchButton)>#urlbar-input-container>#identity-box[pageproxystate="invalid"] #identity-icon,
+  .searchbar-search-icon {
+    list-style-image: url("iconstabs/edit-find.svg") !important;
+  }
+  
+#userContext-indicator {
+  display: none !important;
+}
+  
+  #identity-box[pageproxystate="valid"].localResource #identity-icon {
+    list-style-image: url("iconstabs/view-reader.svg") !important;
+  }
+  
+  
+  
+  #urlbar[actiontype="extension"]>#urlbar-input-container>#identity-box #identity-icon,
+  #identity-box[pageproxystate="valid"].extensionPage #identity-icon {
+    list-style-image: url("iconstabs/application-x-addon.svg") !important;
+  }
+  
+  
+  #identity-box[pageproxystate="valid"].verifiedDomain #identity-icon,
+  #identity-box[pageproxystate="valid"].mixedActiveBlocked #identity-icon {
+    list-style-image: url("iconstabs/locked.svg") !important;
+  }
+  
+  #identity-box[pageproxystate="valid"].weakCipher #identity-icon,
+  #identity-box[pageproxystate="valid"].mixedDisplayContent #identity-icon,
+  #identity-box[pageproxystate="valid"].mixedDisplayContentLoadedActiveBlocked #identity-icon,
+  #identity-box[pageproxystate="valid"].certUserOverridden #identity-icon,
+  #identity-box[pageproxystate="valid"].certErrorPage #identity-icon {
+    list-style-image: url("iconstabs/dialog-warning.svg") !important;
+  }
+  
+  
+  
+  #identity-box[pageproxystate="valid"].notSecure #identity-icon,
+  #identity-box[pageproxystate="valid"].mixedActiveContent #identity-icon,
+  #identity-box[pageproxystate="valid"].httpsOnlyErrorPage #identity-icon {
+    list-style-image: url("iconstabs/unlocked2.svg") !important;
+  }
+  
+  
+  
+  #identity-icon[src="chrome://branding/content/icon16.png"] {
+    
+      list-style-image:  url("icons/icon16-new.png") !important;
+  }
+
+  #permissions-granted-icon {
+    list-style-image: url("iconstabs/preferences-desktop.svg") !important;
+    padding: 0 !important;
+  }
+  
+  #webrtc-sharing-icon[sharing="camera"] {
+    list-style-image: url("iconstabs/camera-video.svg") !important;
+  }
+  
+  #webrtc-sharing-icon[sharing="microphone"] {
+    list-style-image: url("iconstabs/audio-input-microphone.svg") !important;
+  }
+  
+  #webrtc-sharing-icon[sharing="screen"] {
+    list-style-image: url("iconstabs/screen.svg") !important;
+  }
+  
+  #geo-sharing-icon[sharing] {
+    list-style-image: url("iconstabs/applications-internet.svg") !important;
+  }
+  
+  
+  .urlbar-input-container[pageproxystate="valid"]>#tracking-protection-icon-container>#tracking-protection-icon-box {
+    list-style-image: url("iconstabs/security-medium.svg") !important;
+  
+    &[active] {
+      list-style-image: url("iconstabs/security-high.svg") !important;
+    }
+  
+    &[hasException] {
+      list-style-image: url("iconstabs/security-low.svg") !important;
+    }
+  }
+  
+  .bookmark-item {
+  &[container] {
+    list-style-image: url("iconstabs/folder-open.svg") !important;
+  }
+}
+  #pageAction-panel-bookmark,
+  #star-button {
+    list-style-image: url("iconstabs/bookmark-missing.svg") !important;
+    opacity: 0.5;
+  }
+  
+  #pageAction-panel-bookmark[starred],
+  #star-button[starred] {
+    list-style-image: url("iconstabs/help-about.svg") !important;
+    opacity: 1;
+  }
+  
+  #pageActionButton,
+  .share-more-button {
+    list-style-image: url("iconstabs/open-menu.svg") !important;
+  }
+  
+  #reader-mode-button>.urlbar-icon {
+    list-style-image: url("iconstabs/view-reader.svg") !important;
+  }
+  
+  #picture-in-picture-button>.urlbar-icon {
+    list-style-image: url("iconstabs/pip.svg") !important;
+  }
+  
+  #picture-in-picture-button[pipactive]>.urlbar-icon {
+    list-style-image: url("iconstabs/pip.svg") !important;
+  }
+  
+  #translations-button-icon {
+    list-style-image: url("iconstabs/text-x-gettext-translation.svg") !important;
+    margin-right: 0px;
+  }
+  
+  #translations-button-circle-arrows {
+    list-style-image: url("iconstabs/view-refresh.svg") !important;
+  }
+  
+  
+  .searchbar-search-icon {
+    list-style-image: url("iconstabs/edit-find.svg") !important;
+  
+  }
+  
+  .focus-tab-by-prompt-icon {
+    list-style-image: url("iconstabs/dialog-information.svg") !important;
+  }
+  
+  .storage-access-icon {
+    list-style-image: url("iconstabs/network-workgroup.svg") !important;
+  }
+  
+  .persistent-storage-icon {
+    list-style-image: url("iconstabs/network-workgroup.svg") !important;
+  }
+  
+  .persistent-storage-icon.blocked-permission-icon {
+    list-style-image: url("iconstabs/nocloud.svg") !important;
+  }
+  
+  .desktop-notification-icon {
+    list-style-image: url("iconstabs/preferences-system-notifications.svg") !important;
+  }
+  
+  .desktop-notification-icon.blocked-permission-icon {
+    list-style-image: url("iconstabs/nonotifs.svg") !important;
+  }
+  
+  .geo-icon {
+    list-style-image: url("iconstabs/applications-internet.svg") !important;
+  }
+  
+  .geo-icon.blocked-permission-icon {
+    list-style-image: url("iconstabs/nolocation.svg") !important;
+  }
+  
+  .open-protocol-handler-icon {
+    list-style-image: url("iconstabs/window-new.svg") !important;
+  }
+  
+  /* this is virtually insane
+  
+  .xr-icon {
+    list-style-image: url(chrome://browser/skin/notification-icons/xr.svg);
+  }
+  
+  .xr-icon.blocked-permission-icon {
+    list-style-image: url(chrome://browser/skin/notification-icons/xr-blocked.svg);
+  }*/
+  
+  .autoplay-media-icon {
+    list-style-image: url("iconstabs/folder-videos.svg") !important;
+  }
+  
+  .autoplay-media-icon.blocked-permission-icon {
+    list-style-image: url("iconstabs/noautoplay.svg") !important;
+  }
+  
+  .indexedDB-icon {
+    list-style-image: url("iconstabs/network-workgroup.svg") !important;
+  }
+  
+  #password-notification-icon {
+    list-style-image: url("iconstabs/stock-keyring.svg") !important;
+  }
+  
+  
+  .camera-icon {
+    list-style-image: url("iconstabs/camera-video.svg") !important;
+  }
+  
+  .camera-icon.in-use {
+    list-style-image: url("iconstabs/camera-video.svg") !important;
+  }
+  
+  .camera-icon.blocked-permission-icon {
+    list-style-image: url("iconstabs/nocam.svg") !important;
+  }
+  
+  .microphone-icon {
+    list-style-image: url("iconstabs/audio-input-microphone.svg") !important;
+  }
+  
+  .microphone-icon.in-use {
+    list-style-image: url("iconstabs/audio-input-microphone.svg") !important;
+  }
+  
+  .microphone-icon.blocked-permission-icon {
+    list-style-image: url("iconstabs/nomic.svg") !important;
+  }
+  
+  .popup-notification-icon.microphone-icon {
+    list-style-image: url("iconstabs/audio-input-microphone.svg") !important;
+  }
+  
+  .screen-icon {
+    list-style-image: url("iconstabs/screen.svg") !important;
+  }
+  
+  .screen-icon.in-use {
+    list-style-image: url("iconstabs/screen.svg") !important;
+  }
+  
+  .screen-icon.blocked-permission-icon {
+    list-style-image: url("iconstabs/noscreen.svg") !important;
+  }
+  
+  .speaker-icon {
+    list-style-image: url("iconstabs/audio-speakers.svg") !important;
+  }
+  
+  .midi-icon,
+  .midi-sysex-icon {
+    list-style-image: url("iconstabs/folder-music.svg") !important;
+  }
+  
+  .midi-icon.blocked-permission-icon,
+  .midi-sysex-icon.blocked-permission-icon {
+    list-style-image: url("iconstabs/nomidi.svg") !important;
+  }
+  
+  #canvas-notification-icon,
+  .canvas-icon {
+    list-style-image: url("iconstabs/canvas.svg") !important;
+  }
+  
+  .canvas-icon.blocked-permission-icon {
+    list-style-image: url("iconstabs/nocanvas.svg") !important;
+  }
+  
+  #webauthn-notification-icon,
+  .popup-notification-icon[popupid^="webauthn-prompt-"] {
+    list-style-image: url("iconstabs/dialog-warning.svg") !important;
+  }
+  
+  #identity-credential-notification-icon {
+    list-style-image: url("iconstabs/stock_keyring.svg") !important;
+  }
+  
+  .popup-icon {
+    list-style-image: url("iconstabs/viewtab.svg") !important;
+  }
+  
+  
+  .drm-icon {
+    list-style-image: url("iconstabs/drm.svg") !important;
+  }
+  
+  .install-icon {
+    list-style-image: url("iconstabs/application-x-addon.svg") !important;
+  }
+  
+  .install-icon.blocked-permission-icon {
+    list-style-image: url("iconstabs/noaddon.svg") !important;
+  }

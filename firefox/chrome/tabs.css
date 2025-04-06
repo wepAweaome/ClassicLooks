@@ -1,0 +1,219 @@
+/* remove default tab colors */
+
+:root {
+  --red-tab: 255, 82, 92;
+  --orange-tab: 255, 155, 89;
+  --yellow-tab: 255, 212, 42;
+  --green-tab: 95, 220, 95;
+  --blue-tab: 122, 197, 255;
+  --turquoise-tab: 55, 200, 171;
+  --purple-tab: 203, 135, 255;
+  --pink-tab: 255, 155, 203;
+  --black-tab: 25, 25, 25;
+
+}
+
+.tab-line {
+  /* = light top line in selected tab in Quantum default */
+  display: none !important;
+}
+
+.tab-background {
+  border: transparent !important;
+  background: transparent;
+  color: transparent;
+  opacity: 0.0;
+}
+
+#TabsToolbar {
+  .toolbarbutton-badge {
+    display: none !important;
+  }
+
+}
+
+#tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])[orient="horizontal"] > #tabbrowser-arrowscrollbox > .tabbrowser-tab:nth-child(1 of :not([pinned], [hidden])) {
+  margin-inline-start: 0px !important;
+}
+
+#TabsToolbar:not(:-moz-lwtheme) .tabbrowser-tab[visuallyselected="true"],
+#TabsToolbar:not(:-moz-lwtheme) .tabbrowser-tab,
+.tabbrowser-tab,
+.tab-content {
+  border: unset !important;
+}
+
+.tab-label-container[textoverflow]:not([pinned]) {
+  mask-image: unset !important;
+}
+
+#TabsToolbar:not(:-moz-lwtheme) .tabbrowser-tab,
+.tabbrowser-tab,
+#TabsToolbar:not(:-moz-lwtheme) .tabbrowser-tab[visuallyselected="true"] {
+  min-height: 25px !important;
+  max-height: 25px !important;
+  padding: 0px !important;
+  border: 0px solid transparent !important;
+  margin-left: 1px !important;
+}
+
+
+
+.tab-content,
+
+ #TabsToolbar .toolbarbutton-1,
+#scrollbutton-up, #scrollbutton-down{
+  border-radius: 3px 3px 0 0 !important;
+  border: var(--toolbar-btn-border);
+  height: 26px !important;
+  margin-top: 3px !important;
+  background: var(--tab-bg);
+  
+  box-shadow: 0px -1px  #aaa inset !important;
+  margin-left: 2px !important;
+  margin-right: -2px !important;
+  
+
+.tab-icon-image {
+  margin-left: -5px !important;
+  margin-right: 3px !important;
+}
+}
+
+
+ #TabsToolbar .toolbarbutton-1,
+#scrollbutton-up, #scrollbutton-down
+  {
+    width: 30px !important;
+      
+    margin-left: 1px !important;
+  margin-right: 1px !important;
+  }
+
+#TabsToolbar {
+  overflow: clip;
+  box-shadow: 0px -1px  #aaa inset !important;
+
+}
+
+
+
+
+.tab-content[selected] {
+  /*color: #fff !important;*/
+  height: 30px !important;
+  background: var(--tab-bg-hover);
+    
+
+.tab-icon-image {
+  margin-top: -1px !important;
+}
+}
+
+.tabbrowser-tab[pinned]{
+  
+  .tab-content {
+    margin-right: 2px !important;
+    padding: 6px 3px 6px 10px !important;
+  }
+}
+
+
+.tabbrowser-tab.identity-color-red>.tab-stack>.tab-content {
+
+ box-shadow: 0px 4px  rgba(var(--red-tab), 0.8) inset !important;
+
+}
+
+.tabbrowser-tab.identity-color-orange>.tab-stack>.tab-content {
+
+  
+    box-shadow: 0px 4px rgba(var(--orange-tab), 0.8) inset !important;
+
+}
+
+.tabbrowser-tab.identity-color-yellow>.tab-stack>.tab-content {
+
+   box-shadow: 0px 4px rgba(var(--yellow-tab), 0.8) inset !important;
+
+}
+
+
+.tabbrowser-tab.identity-color-green>.tab-stack>.tab-content {
+
+   box-shadow: 0px 4px rgba(var(--green-tab), 0.8) inset !important;
+
+}
+
+.tabbrowser-tab.identity-color-blue>.tab-stack>.tab-content {
+
+   box-shadow: 0px 4px rgba(var(--blue-tab), 0.8) inset !important;
+}
+
+
+
+
+.tabbrowser-tab.identity-color-turquoise>.tab-stack>.tab-content {
+
+   box-shadow: 0px 4px rgba(var(--turquoise-tab), 0.8) inset !important;
+
+}
+
+.tabbrowser-tab.identity-color-purple>.tab-stack>.tab-content {
+
+   box-shadow: 0px 4px rgba(var(--purple-tab), 0.8) inset !important
+     
+}
+
+.tabbrowser-tab.identity-color-pink>.tab-stack>.tab-content {
+
+   box-shadow: 0px 4px  rgba(var(--pink-tab), 0.8)  inset !important;
+
+}
+#tabbrowser-arrowscrollbox spacer{
+  
+  display: none !important;
+}
+
+#tabbrowser-arrowscrollbox-periphery {
+  
+    margin-left: 4px !important;
+  
+}
+
+
+
+.tabbrowser-tab {
+  padding: 0 !important;
+  position: relative !important;
+  margin-right: -1px !important;
+}
+
+
+#TabsToolbar {
+  .toolbarbutton-icon {
+    width: 25px !important;
+  }
+
+ 
+
+
+
+  #zoom-reset-button {
+    width: inherit !important;
+
+  }
+
+  #zoom-controls,
+  #edit-controls {
+    height: 25px !important;
+
+
+  }
+
+  .toolbarbutton-1:where(:hover:active, [open="true"]) {
+
+    background: linear-gradient(to bottom, rgba(255, 255, 255, .9) 0%, rgba(255, 255, 255, .5) 10%, rgba(255, 255, 255, .1) 100%) !important;
+
+  }
+}

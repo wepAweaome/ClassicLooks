@@ -1,0 +1,52 @@
+
+@import "tabs.css";
+@import "toolbars.css";
+@import "urlbar.css"; 
+@import "tabsicons.css";
+@import "toolbarsicons.css";
+@import "urlbaricons.css"; 
+@import "tabsonbottom.css";
+/* @import "tabsontop.css";  */
+
+:root {
+  --urlbar-bg: #ededed;
+  --urlbar-border: 1px solid rgb(145,145,145);
+  --url-text: #000000;
+  --search-bg: #ffffff;
+  --search-text: #000000;
+  --tab-bg: linear-gradient(to bottom, rgba(255, 255, 255, .5) 0%, rgba(255, 255, 255, .3) 10%, rgba(0, 0, 0, 0.1) 100%);
+  --tab-bg-hover: linear-gradient(to bottom, rgba(255, 255, 255, .6) 0%, rgba(255, 255, 255, .4) 20%, rgba(255, 255, 255, 0) 100%);
+  --tab-bg-hover-dark: linear-gradient(to bottom, rgba(255, 255, 255, .8) 0%, rgba(255, 255, 255, .5) 10%, rgba(255, 255, 255, .2) 100%);
+  
+  --toolbar-btn-border: 1px solid rgb(155,155,155);
+  --toolbar-btn-shadow-hov: none;
+  --toolbar-btn-bg-hov: linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, .05) 60%, rgba(0, 0, 0, .04) 100%);
+  --toolbar-btn-shadow-press: 1px 1px rgba(255,255,255,0.5);
+  --toolbar-btn-bg-press: linear-gradient(to bottom,  rgba(0, 0, 0, .05) 0%, rgba(0, 0, 0, .14) 100%);
+  
+
+} 
+
+/* system theme */
+.tab-content, #TabsToolbar  .toolbarbutton-1 {
+  background-color: Background !important;
+ }
+
+
+/* single color themes 
+.tab-content, #TabsToolbar  .toolbarbutton-1 {
+  background-color: var(--lwt-accent-color) !important;
+ }
+#TabsToolbar {
+  background-color: Background !important;
+}
+#toolbar-menubar {
+  background-color: Background !important;
+}
+menubar > menu {
+color: black !important;  
+}
+*/
+
+ 
+

@@ -1,0 +1,240 @@
+#TabsToolbar,
+#PersonalToolbar,
+#toolbar-menubar {
+  .toolbarbutton-icon {
+    height: 16px !important;
+    padding: 0px !important;
+    width: 16px !important;
+  }
+  
+  
+  
+  .bookmark-item 
+  .toolbarbutton-icon  {
+    height: 16px !important;
+    width:  16px !important;
+  }
+
+  #tabs-newtab-button>.toolbarbutton-icon,
+  #new-tab-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/list-add.svg") !important;
+  }
+
+  #alltabs-button .toolbarbutton-icon {
+    list-style-image: url("iconstabs/go-bottom.svg") !important;
+  }
+
+  #sidebar-button .toolbarbutton-icon {
+    list-style-image: url("iconstabs/view-reader.svg") !important;
+
+  }
+
+  #characterencoding-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/open-menu.svg") !important;
+  }
+
+  #new-window-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/window-new.svg") !important;
+  }
+
+  #email-link-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/mail-forward.svg") !important;
+  }
+
+  #developer-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/applications-development.svg") !important;
+  }
+
+  #zoom-in-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/add.svg") !important;
+  }
+
+  #zoom-out-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/list-remove.svg") !important;
+  }
+
+  #paste-button>.toolbarbutton-icon {
+    list-style-image: url("icons/edit-paste.svg") !important;
+  }
+
+  #cut-button>.toolbarbutton-icon {
+    list-style-image: url("icons/edit-cut.svg") !important;
+  }
+
+  #copy-button>.toolbarbutton-icon {
+    list-style-image: url("icons/edit-copy.svg") !important;
+  }
+
+  #privatebrowsing-button>.toolbarbutton-icon {
+    list-style-image: url("icons/view-private.svg") !important;
+  }
+
+
+  #alltabs-button .toolbarbutton-icon {
+    list-style-image: url("iconstabs/go-bottom.svg") !important;
+  }
+
+  #sidebar-button .toolbarbutton-icon {
+    list-style-image: url("iconstabs/view-reader.svg") !important;
+
+  }
+
+  #home-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/user-home.svg") !important;
+  }
+
+  #reload-button {
+    .toolbarbutton-animatable-box {
+      display: none
+    }
+
+    .toolbarbutton-icon {
+      list-style-image: url("iconstabs/view-refresh.svg") !important;
+    }
+  }
+  
+  .tab-icon-image[src^="chrome://"] {
+    
+     content: url("iconstabs/preferences-system.svg") !important;
+    
+  }
+  .tab-icon-image[src="chrome://branding/content/icon32.png"] {
+    
+     content: url("icons/icon16-new.png") !important;
+  }
+  #stop-button {
+
+
+    .toolbarbutton-animatable-box {
+      display: none
+    }
+
+    .toolbarbutton-icon {
+
+      list-style-image: url("iconstabs/emblem-unreadable.svg") !important;
+
+    }
+  }
+
+  #back-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/go-previous.svg") !important;
+  }
+
+  #forward-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/go-next.svg") !important;
+  }
+
+  #downloads-indicator-icon {
+    position: relative;
+    right: 1px !important;
+    list-style-image: url("iconstabs/document-save-as.svg") !important;
+  }
+
+  #unified-extensions-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/application-x-addon.svg") !important;
+  }
+
+  #bookmarks-menu-button .toolbarbutton-icon {
+    list-style-image: url("iconstabs/help-about.svg") !important;
+
+  }
+
+  #open-file-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/document-save.svg") !important;
+  }
+
+  #save-page-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/document-revert-rtl.svg") !important;
+  }
+
+  #find-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/edit-find.svg") !important;
+  }
+
+  #print-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/printer.svg") !important;
+  }
+
+  #history-panelmenu>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/preferences-system-time.svg") !important;
+  }
+
+  #preferences-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/preferences-system.svg") !important;
+  }
+
+  #import-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/bookmark-new.svg") !important;
+  }
+
+  #fullscreen-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/view-fullscreen.svg") !important;
+  }
+
+  #screenshot-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/org.xfce.screenshooter.svg") !important;
+  }
+
+  #logins-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/stock_keyring.svg") !important;
+  }
+
+  #panic-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/process-stop.svg") !important;
+  }
+
+  #firefox-view-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/viewtab.svg") !important;
+  }
+
+  #library-button>.toolbarbutton-icon {
+    list-style-image: url("iconstabs/folder-open.svg") !important;
+  }
+
+
+
+
+  #PanelUI-menu-button .toolbarbutton-icon {
+    list-style-image: url("iconstabs/applications-other.svg") !important;
+
+    height: 32px !important;
+    width: 32px !important;
+  }
+
+
+
+  .tab-close-button {
+    opacity: 1 !important;
+    padding: 0 !important;
+    position: relative !important;
+    left: 3px !important;
+    margin: 0 !important;
+    list-style-image: url("iconstabs/window-close.svg") !important;
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+    height: 18px !important;
+
+    width: 18px !important;
+  }
+
+
+  .tab-close-button:hover {
+    border-radius: 3px !important;
+    box-shadow: var(--toolbar-btn-shadow-hov) !important;
+    border: var(--toolbar-btn-border) !important;
+    background: var(--toolbar-btn-bg-hov) !important;
+  }
+
+  .tab-close-button[open="true"] {
+    border-radius: 3px !important;
+    border: 1px solid #666 !important;
+    box-shadow: var(--toolbar-btn-shadow-press) !important;
+    border: var(--toolbar-btn-border) !important;
+    background: var(--toolbar-btn-bg-press) !important;  
+  }
+
+
+}
+
+#downloads-button[animate][notification]>.toolbarbutton-badge-stack>#downloads-indicator-anchor>#downloads-indicator-icon {
+  visibility: visible !important;
+}

@@ -1,0 +1,37 @@
+.tab-content[selected] {
+  z-index: 300000 !important;
+    --tab-bg-hover: linear-gradient(to bottom, rgba(255, 255, 255, .9) 0%, rgba(255, 255, 255, .4) 10%, rgba(255, 255, 255, .19) 100%);
+  opacity: 1 !important;
+}
+  #PersonalToolbar {
+    height: 25px !important;
+    position: relative !important;
+    top: 30px !important;
+  }
+:has(#toolbar-menubar:not([inactive="true"])) {
+  #TabsToolbar {
+    top: 24px !important;
+    
+      border-bottom: none !important;
+  }
+  #nav-bar {
+    top: 27px !important;
+    height: 33px !important;
+  }
+
+}
+:has(#toolbar-menubar[inactive="true"]) {
+    #TabsToolbar {
+      border-bottom: none !important;
+  }
+  #nav-bar {
+    top: 28px !important;
+  }
+}
+
+  #nav-bar {
+    top: 27px !important;
+    height: 33px !important;
+    
+   background: linear-gradient(to bottom, rgba(255, 255, 255, .2) 0%, rgba(255, 255, 255, 0) 100%) !important;
+  }
